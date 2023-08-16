@@ -6,13 +6,14 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "start8888": "react-native start --resetCache --port 9999",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
     "react": "17.0.2",
-    "react-native": "0.68.2",
-    "react-native-chat-sdk": "1.0.7"
+    "react-native": "0.68.7",
+    "react-native-chat-sdk": "1.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
